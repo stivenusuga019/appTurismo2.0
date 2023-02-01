@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turistiando</string>
+
+
+    <string name="hotel">Hotels</string>
+    <string name="pajaritos">Birds You Can Find</string>
+    <string name="restautante">Restaurants</string>
+
+    <string name="creador">About me</string>
+    <string name="ingles">English</string>
+    <string name="español">Spanish</string>
+
+    <string name="nombre">Name </string>
+    <string name="Nombre">Stiven Muñoz Usuga</string>
+    <string name="Descripcción">I am 19 years old I am a person who loves to make applications, I am a Software Development Technician and I love to develop web pages </string>
+    <string name="Contatos">Contacts</string>
+    <string name="email">Email</string>
+    <string name="Email">Stivenusuga019@gmail.com</string>
+    <string name="Celular">Cell phone</string>
+    <string name="celular">+57 3246756251</string>
+
+    <string name="ave1">Mourning Dove - The gentle songbird</string>
+    <string name="ave2">Northern Cardinal - The most common backyard bird in the northern US.</string>
+    <string name="ave3">American Robin - The most common bird in the backyard during the summer</string>
+    <string name="ave4">American Crow - The Black Predator</string>
+    <string name="salir" >Exit</string>
+    <string name="titulo">explore garden your town</string>
+
+</resources>

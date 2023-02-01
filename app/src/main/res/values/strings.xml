@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Turistiando</string>
+
+    <string name="hotel">Hoteles</string>
+    <string name="pajaritos">Aves Que Puedes Encontrar</string>
+    <string name="restautante">Restaurantes</string>
+
+    <string name="creador">Acerca de</string>
+    <string name="ingles">Ingles</string>
+    <string name="español">Español</string>
+
+    <string name="nombre">Nombre </string>
+    <string name="Nombre">Stiven Muñoz Usuga</string>
+    <string name="Descripcción">Tengo 19 Años Soy una persona que me encanta hacer aplicaciones, Soy una persona Tecnico en Desarrolo De Software y me encanta desarrollar paginas web </string>
+    <string name="Contatos">Contactos</string>
+    <string name="email">Correo Electronico</string>
+    <string name="Email">Stivenusuga019@gmail.com</string>
+    <string name="Celular">Celular</string>
+    <string name="celular">+57 3246756251</string>
+
+    <string name="ave1">Paloma de luto - El gentil pájaro cantor</string>
+    <string name="ave2">Cardenal del Norte - El ave de jardín más común del norte de EE. UU.</string>
+    <string name="ave3">Petirrojo americano - El pájaro más común del patio trasero durante el verano</string>
+    <string name="ave4">Cuervo americano - El depredador negro</string>
+    <string name="salir">Salir</string>
+    <string name="titulo">Explora Jardin Tu Pueblo</string>
+    <string name="descripcionhotel1">El Hotel Orillas del Pizano se encuentra en Jardín y ofrece jardín, terraza, restaurante y bar. El alojamiento ofrece entretenimiento nocturno y cocina compartida.</string>
+
+
+</resources>
