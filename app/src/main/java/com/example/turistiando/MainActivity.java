@@ -55,6 +55,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentHoteles);
             }
         });
+        botonRestaurante.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentRestaurante = new Intent(MainActivity.this,Restaurantes.class);
+                startActivity(intentRestaurante);
+            }
+        });
     }
 
 
