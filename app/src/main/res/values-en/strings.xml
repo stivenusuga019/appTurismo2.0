@@ -28,4 +28,37 @@
     <string name="salir" >Exit</string>
     <string name="titulo">explore garden your town</string>
 
+    <string name="NombreHotel1">Hotel Orillas del PizanoSe abre en una ventana nueva</string>
+    <string name="NombreHotel2">Travesía Original Vísta Farallónes</string>
+    <string name="NombreHotel3">Hospedaje Campestre El Rancho de JeroSe abre en una ventana nueva</string>
+    <string name="NombreHotel4">Hospedaje Rural La BoiraSe abre en una ventana nueva</string>
+
+
+    <string name="descripcionhotel1">El Hotel Orillas del Pizano se encuentra en Jardín y ofrece jardín, terraza, restaurante y bar. El alojamiento ofrece entretenimiento nocturno y cocina compartida.</string>
+    <string name="descripcionhotel2">El Travesía Original Vísta Farallónes se encuentra en Jardín y ofrece jardín, terraza, bar y WiFi gratuita.</string>
+    <string name="descripcionhotel3">El Hospedaje Campestre El Rancho de Jero se encuentra en Jardín y ofrece vistas a la ciudad, jardín, salón compartido, terraza, bar y zona de barbacoa.</string>
+    <string name="descripcionhotel4">El Hospedaje Rural La Boira está situado en Jardin, a 1,5 km del parque central. Ofrece WiFi y aparcamiento gratuitos. Este alojamiento se encuentra rodeado de jardines.</string>
+
+    <string name="PrecioHotel1">COP 2.041.200</string>
+    <string name="PrecioHotel2">COP 1.318.620</string>
+    <string name="PrecioHotel3">COP 1.478.000</string>
+    <string name="PrecioHotel4">COP 1.478.000</string>
+
+
+    <string name="NombreRes1">Bon appétit</string>
+    <string name="NombreRes2">Realismo Mágico</string>
+    <string name="NombreRes3">Bella Italia Pizzeria y Grill</string>
+    <string name="NombreRes4">Creperia Trigo y Centeno</string>
+
+
+    <string name="desRestaurante1">Apto para vegetarianos, Opciones veganas, Opciones sin gluten</string>
+    <string name="desRestaurante2">Reservas, Asiento, Servicio de mesa</string>
+    <string name="desRestaurante3">Apto para vegetarianos, Opciones veganas</string>
+    <string name="desRestaurante4">Apto para vegetarianos</string>
+
+    <string name="PrecioRes1">$ 8.000 - $ 30.000</string>
+    <string name="PrecioRes2">$ 10.000 - $ 30.000</string>
+    <string name="PrecioRes3">$ 14.000 - $ 35.000</string>
+    <string name="PrecioRes4">$ 10.000 - $ 40.000</string>
+
 </resources>
