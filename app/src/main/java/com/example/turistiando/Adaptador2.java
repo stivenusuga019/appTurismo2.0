@@ -15,14 +15,13 @@ public class Adaptador2 extends RecyclerView.Adapter<Adaptador2.viewRestaurante>
 
     public ArrayList<Restaurante> listaRestaurante;
 
-    public Adaptador2(ArrayList<Restaurante> listaRestaurante) {this.listaRestaurante =listaRestaurante;
-    }
+    public Adaptador2(ArrayList<Restaurante> listaRestaurante){this.listaRestaurante = listaRestaurante;}
 
 
     @NonNull
     @Override
     public Adaptador2.viewRestaurante onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View vista= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item,null,false);
+        View vista= LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item2,null,false);
         return new Adaptador2.viewRestaurante(vista);
     }
 
@@ -44,10 +43,10 @@ public class Adaptador2 extends RecyclerView.Adapter<Adaptador2.viewRestaurante>
 
         public viewRestaurante(@NonNull View itemView) {
             super(itemView);
-            fotoRestaurante=itemView.findViewById(R.id.fotoHotel1);
-            nombreRestaurante=itemView.findViewById(R.id.nombreHotel1);
-            descripcionRestaurante=itemView.findViewById(R.id.descipcionHotel1);
-            precioRestaurante=itemView.findViewById(R.id.precioHotel1);
+            fotoRestaurante=itemView.findViewById(R.id.fotoRestaurate1);
+            nombreRestaurante=itemView.findViewById(R.id.nombreRestaurante1);
+            descripcionRestaurante=itemView.findViewById(R.id.descipcionRestaurante1);
+            precioRestaurante=itemView.findViewById(R.id.precioRestaurantel1);
         }
 
         public void actualizarDatos2(Restaurante restaurante) {

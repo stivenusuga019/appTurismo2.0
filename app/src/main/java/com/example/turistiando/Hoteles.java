@@ -41,10 +41,10 @@ public class Hoteles extends AppCompatActivity {
     }
     public void crearListaHoteles(){
 
-        lista.add(new Hotel(R.drawable.hotel1,Integer.toString(R.string.NombreHotel1),Integer.toString(R.string.descripcionhotel1),Integer.toString(R.string.PrecioHotel1)));
-        lista.add(new Hotel(R.drawable.hotel2,Integer.toString(R.string.NombreHotel2),Integer.toString(R.string.descripcionhotel2),Integer.toString(R.string.PrecioHotel2)));
-        lista.add(new Hotel(R.drawable.hotel3,Integer.toString(R.string.NombreHotel3),Integer.toString(R.string.descripcionhotel3),Integer.toString(R.string.PrecioHotel3)));
-        lista.add(new Hotel(R.drawable.hotel4,Integer.toString(R.string.NombreHotel4),Integer.toString(R.string.descripcionhotel4),Integer.toString(R.string.PrecioHotel4)));
+        lista.add(new Hotel(R.drawable.hotel1,getString(R.string.NombreHotel1),getString(R.string.descripcionhotel1),getString(R.string.PrecioHotel1)));
+        lista.add(new Hotel(R.drawable.hotel1,getString(R.string.NombreHotel1),getString(R.string.descripcionhotel1),getString(R.string.PrecioHotel1)));
+        lista.add(new Hotel(R.drawable.hotel3,getString(R.string.NombreHotel3),getString(R.string.descripcionhotel3),getString(R.string.PrecioHotel3)));
+        lista.add(new Hotel(R.drawable.hotel4,getString(R.string.NombreHotel4),getString(R.string.descripcionhotel4),getString(R.string.PrecioHotel4)));
 
     }
     public void cambiarIdioma(String idioma){

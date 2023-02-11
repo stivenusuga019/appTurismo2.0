@@ -17,8 +17,8 @@ import java.util.Locale;
 
 public class Restaurantes extends AppCompatActivity {
 
-    ArrayList<Hotel> lista2= new ArrayList<>();
-    RecyclerView listaLogica;
+    ArrayList<Restaurante> lista2= new ArrayList<>();
+    RecyclerView listaLogica2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,19 +31,19 @@ public class Restaurantes extends AppCompatActivity {
         ColorDrawable colorBarra= new ColorDrawable(Color.parseColor("#DC2D50"));
         barra.setBackgroundDrawable(colorBarra);
 
-        listaLogica=findViewById(R.id.recycler2);
-        listaLogica.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
+        listaLogica2=findViewById(R.id.recycler2);
+        listaLogica2.setLayoutManager(new LinearLayoutManager(this,RecyclerView.VERTICAL,false));
 
         crearListaRestaurante();
-        Adaptador adaptador2 = new Adaptador(lista2);
-        listaLogica.setAdapter(adaptador2);
+        Adaptador2 adaptador2 = new Adaptador2 (lista2);
+        listaLogica2.setAdapter(adaptador2);
     }
     public void crearListaRestaurante(){
 
-        lista2.add(new Hotel(R.drawable.restaurante32,Integer.toString(R.string.NombreRes1),Integer.toString(R.string.desRestaurante1),Integer.toString(R.string.PrecioRes1)));
-        lista2.add(new Hotel(R.drawable.restaurante2,Integer.toString(R.string.NombreRes2),Integer.toString(R.string.desRestaurante2),Integer.toString(R.string.PrecioRes2)));
-        lista2.add(new Hotel(R.drawable.restaurante4,Integer.toString(R.string.NombreRes3),Integer.toString(R.string.desRestaurante3),Integer.toString(R.string.PrecioRes3)));
-        lista2.add(new Hotel(R.drawable.restaurante45,Integer.toString(R.string.NombreRes4),Integer.toString(R.string.desRestaurante4),Integer.toString(R.string.PrecioRes4)));
+        lista2.add(new Restaurante(R.drawable.restaurante32,getString(R.string.NombreRes1),getString(R.string.desRestaurante1),getString(R.string.PrecioRes1)));
+        lista2.add(new Restaurante(R.drawable.restaurante2,getString(R.string.NombreRes2),getString(R.string.desRestaurante2),getString(R.string.PrecioRes2)));
+        lista2.add(new Restaurante(R.drawable.restaurante4,getString(R.string.NombreRes3),getString(R.string.desRestaurante3),getString(R.string.PrecioRes3)));
+        lista2.add(new Restaurante(R.drawable.restaurante45,getString(R.string.NombreRes4),getString(R.string.desRestaurante4),getString(R.string.PrecioRes4)));
 
     }
     public void cambiarIdioma(String idioma){
